@@ -12,10 +12,10 @@ nav {
   background-color: white;
   z-index: 9999;
   padding: 5px;
-  background: -webkit-linear-gradient(top, rgba(255,0,0,0), rgba(255,255,255,0.25), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top, rgba(255,0,0,0), rgba(255,255,255,0.25), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(top, rgba(255,0,0,0), rgba(255,255,255,0.25), rgba(255,255,255,1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255,0.25), rgba(255,255,255,1)); /* Standard syntax (must be last) */
+  background: -webkit-linear-gradient(top, rgba(255,0,0,0), rgba(255,255,255,0.40), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, rgba(255,0,0,0), rgba(255,255,255,0.40), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, rgba(255,0,0,0), rgba(255,255,255,0.40), rgba(255,255,255,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255,0.40), rgba(255,255,255,1)); /* Standard syntax (must be last) */
   -webkit-filter: blur(0.2px);  /* Chrome, Safari, Opera */
   filter: blur(0.2px);
 }
