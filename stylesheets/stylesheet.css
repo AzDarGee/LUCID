@@ -40,7 +40,7 @@ img.bg {
 
   /* Set up positioning */
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
 
   -webkit-filter: blur(0px);  /* Chrome, Safari, Opera */
@@ -58,14 +58,17 @@ footer {
   position: absolute;
   width: 100%;
   padding: 5px;
-  color: white;
+  color: #e6e6e6;
   font-family: Raleway;
   background: rgba(0,0,0,0.4);
 }
 
 .siteDeveloper {
   padding-right: 30px;
+}
 
+.photocred {
+  padding-left: 50px;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
@@ -73,4 +76,8 @@ footer {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
+}
+
+body{
+  overflow-x: hidden;
 }
