@@ -24,6 +24,10 @@ i {
   padding: 15px;
 }
 
+.logo {
+  padding-left: 10em;
+}
+
 
 img.bg {
   /* Set rules to fill background */
